@@ -553,7 +553,7 @@ namespace easypr {
             avgValue+=i*histogram[i];
         }
         
-        int thresholdV;	
+        int thresholdV = 0;	
         float maxVariance=0;
         float w=0,u=0;
         for(int i=0;i<256;i++) {
